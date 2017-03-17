@@ -1,0 +1,9 @@
+applications:
+  hubspot:
+    component: hubspotWebHookIntegration
+    name: Hubspot Webhook
+    description: "Receive Hubspot notifications in Symphony chat rooms"
+    publisher: Symphony
+    context: hubspot
+    enable: true
+    visible: true

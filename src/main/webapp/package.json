@@ -1,12 +1,12 @@
 {
-  "name": "integration-universal-whi",
+  "name": "symphony-hubspot",
   "version": "0.9.0-SNAPSHOT",
-  "description": "Symphony App Integrations - Universal Webhook",
+  "description": "Symphony App Integrations - Hubspot Webhook",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Symphony",
+  "author": "maoo",
   "devDependencies": {
     "alt": "^0.18.6",
     "async": "^2.0.1",

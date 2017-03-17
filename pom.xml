@@ -9,15 +9,15 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>integration-universal-whi</artifactId>
+    <artifactId>symphony-hubspot</artifactId>
 
     <properties>
-        <webapp.directory>universal</webapp.directory>
-        <rpm.name>universal-symphony-integration</rpm.name>
+        <webapp.directory>hubspot</webapp.directory>
+        <rpm.name>hubspot</rpm.name>
     </properties>
 
-    <description>Universal WebHook Integration</description>
-    <url>https://github.com/symphonyoss/App-Integrations-Universal</url>
+    <description>Hubspot WebHook Integration</description>
+    <url>https://github.com/maoo/symphony-hubspot</url>
 
     <licenses>
         <license>
@@ -159,9 +159,9 @@
     </contributors>
 
     <scm>
-        <connection>scm:git:git@github.com:symphonyoss/App-Integrations-Universal.git</connection>
-        <developerConnection>scm:git:git@github.com:symphonyoss/App-Integrations-Universal.git</developerConnection>
-        <url>https://github.com/symphonyoss/App-Integrations-Universal</url>
+        <connection>scm:git:git@github.com:maoo/symphony-hubspot.git</connection>
+        <developerConnection>scm:git:git@github.com:maoo/symphony-hubspot.git</developerConnection>
+        <url>https://github.com/maoo/symphony-hubspot</url>
     </scm>
 
 </project>
