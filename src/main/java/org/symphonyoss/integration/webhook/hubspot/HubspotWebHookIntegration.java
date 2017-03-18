@@ -30,7 +30,7 @@ public class HubspotWebHookIntegration extends WebHookIntegration {
 
   private static final String WEBHOOK_EVENT = "HubSpot Webhook";
 
-  private static final String FORMATTED_MESSAGE = "<b>New FinDEVr Enrollment </b> at %s<br/>%s %s (%s) from %s";
+  private static final String FORMATTED_MESSAGE = "<b>New Enrollment </b> at %s<br/>%s %s (%s) from %s";
 
   private static final String PROPERTIES = "properties";
 
