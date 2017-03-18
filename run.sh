@@ -54,8 +54,6 @@ cat ngrok.log
 
 # Run the Spring Boot application
 echo "Running Spring Boot app from folder $PWD:"
-ls -l $PWD
-
 java -Dlog4j2.outputAllToConsole=true -Dlogs.basedir=$LOG_BASEDIR $JAVA_CMD_OPTS \
 -jar $INTEGRATION_JAR \
 --spring.profiles.active=$APP_ID \
