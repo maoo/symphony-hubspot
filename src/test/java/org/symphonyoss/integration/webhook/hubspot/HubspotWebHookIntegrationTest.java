@@ -35,7 +35,7 @@ public class HubspotWebHookIntegrationTest {
 
   private static final String FORM_SUBMISSION_MESSAGE =
       "<messageML>"
-          + "<b>New Enrollment </b> at Symphony Software Foundation Demos Landing Page: Demo Form"
+          + "<b>New FinDEVr Enrollment </b> at Symphony Software Foundation Demos Landing Page: Demo Form"
           + "<br/>"
           + "John Smith (demo@email.com) from Symphony"
           + "</messageML>";
