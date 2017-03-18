@@ -59,4 +59,5 @@ ls -l $PWD
 java -Dlog4j2.outputAllToConsole=true -Dlogs.basedir=$LOG_BASEDIR $JAVA_CMD_OPTS \
 -jar $INTEGRATION_JAR \
 --spring.profiles.active=$APP_ID \
---server.tomcat.basedir=$PWD/tomcat
+--server.tomcat.basedir=$PWD/tomcat \
+--server.address=0.0.0.0
