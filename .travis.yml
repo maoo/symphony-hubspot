@@ -20,21 +20,27 @@
 # under the License.
 #
 
+sudo: required
+dist: trusty
+language: node_js
+node_js:
+  - "6.10"
+
 after_success: "if [[ \"$TRAVIS_PULL_REQUEST\" = \"false\" ]]; then curl -s https://raw.githubusercontent.com/symphonyoss/contrib-toolbox/master/scripts/oc-deploy.sh | bash ; fi"
 
-language: java
+addons:
+  apt:
+    packages:
+      - openjdk-8-jdk
+      - maven
 
-install: true
 script:
-- "mvn clean package"
-
-jdk:
-  - oraclejdk8
+- "mvn clean package -Prun,bundle"
 
 env:
   global:
    # Used by oc-deploy.sh for CD
-   - OC_BINARY_FOLDER=./target
+   - OC_BINARY_FOLDER=./target/bundle
    - OC_BUILD_CONFIG_NAME=hubspot
 
 # Coverity scan can be enabled for demo purposes

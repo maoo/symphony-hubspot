@@ -37,7 +37,7 @@ public class HubspotWebHookIntegrationTest {
       "<messageML>"
           + "<b>New Enrollment </b> at Symphony Software Foundation Demos Landing Page: Demo Form"
           + "<br/>"
-          + "John Smith (john.smith@symphony.com) from Symphony"
+          + "John Smith (demo@email.com) from Symphony"
           + "</messageML>";
 
   @Mock

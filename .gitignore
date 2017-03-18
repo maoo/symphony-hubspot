@@ -3,6 +3,9 @@ certs/
 env.sh
 application.yaml
 tomcat/
+ngrok
+ngrok-*.zip
+ngrok.log
 
 # Maven
 target/
