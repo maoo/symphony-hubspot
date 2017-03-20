@@ -1,11 +1,12 @@
 {
   "name": "symphony-hubspot",
-  "version": "0.9.0-SNAPSHOT",
+  "version": "0.9.0",
   "description": "Symphony App Integrations - Hubspot Webhook",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "license": "Apache-2.0",
   "author": "maoo",
   "devDependencies": {
     "alt": "^0.18.6",
