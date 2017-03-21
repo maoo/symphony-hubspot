@@ -37,8 +37,8 @@ addons:
 before_script: "npm install node-license-validator -g"
 
 script:
-- "mvn clean package -Prun,bundle"
 - "cd src/main/webapp ; node-license-validator --allow-licenses BSD-like BSD BSD-2-Clause BSD-3-Clause Apache-2.0 MIT ISC Unlicense MIT/X11 \"MIT / http://rem.mit-license.org\" \"Public Domain\" --allow-packages stream-cache@0.0.2 ripemd160@0.2.0 domutils@1.5.1 domhandler@2.1.0 domelementtype@1.3.0"
+- "mvn clean package -Prun,bundle"
 
 env:
   global:
