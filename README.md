@@ -1,3 +1,4 @@
+[![FINOS - Archived](https://cdn.jsdelivr.net/gh/finos/contrib-toolbox@master/images/badge-archived.svg)](https://finosfoundation.atlassian.net/wiki/display/FINOS/Archived)
 [![Dependencies](https://www.versioneye.com/user/projects/58cc3b2fdcaf9e0045d9700f/badge.svg?style=flat-square)](https://www.versioneye.com/user/projects/58cc3b2fdcaf9e0045d9700f)
 [![Build Status](https://travis-ci.org/maoo/symphony-hubspot.svg)](https://travis-ci.org/maoo/symphony-hubspot)
 
